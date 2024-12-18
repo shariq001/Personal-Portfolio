@@ -11,6 +11,11 @@
 
 body {
   background-color: black;
+  color: white;
+}
+
+p {
+  color: #c7c7c7;
 }
 
 .poppins {
