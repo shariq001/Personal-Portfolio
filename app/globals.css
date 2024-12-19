@@ -14,7 +14,7 @@ body {
   color: white;
 }
 
-p {
+p, label {
   color: #c7c7c7;
 }
 
