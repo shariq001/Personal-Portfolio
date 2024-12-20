@@ -7,7 +7,7 @@ import Header from '@/components/Header';
 
 const Home = () => {
   return (
-    <div className='xl:w-[1440px]'>
+    <div className='xl:min-w-[1440px]'>
 
       <Header />
       
