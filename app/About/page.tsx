@@ -18,7 +18,7 @@ const About = () => {
           <p>I&apos;m Muhammad Shariq, a passionate learner with a keen interest in technology and problem-solving. Aspiring to become a Generative AI Engineer, I focus on mastering modern tools and building innovative solutions. I strive to grow both personally and professionally by taking on challenges that push my limits, aiming to make a meaningful impact through my work.</p>
 
           <div className='flex justify-start items-center xl:gap-[24px] sm:gap-[14px]'>
-            <Link href='' className='bg-[#D3E97A] xl:px-[32px] sm:px-[20px] py-[16px] rounded-[50px] text-black font-bold my-[20px] xl:text-[16px] sm:text-[14px]'>DOWNLAOD RESUME <FontAwesomeIcon icon={faCircle} className='size-[10px] xl:inline-flex sm:hidden ml-[15px]' /></Link>
+            <Link href="Muhammad Shariq's Resume.pdf" download target='_blank' className='bg-[#D3E97A] xl:px-[32px] sm:px-[20px] py-[16px] rounded-[50px] text-black font-bold my-[20px] xl:text-[16px] sm:text-[14px]'>DOWNLAOD RESUME <FontAwesomeIcon icon={faCircle} className='size-[10px] xl:inline-flex sm:hidden ml-[15px]' /></Link>
             <Link href='https://www.upwork.com/freelancers/~01d1e47120d0918186' target='_blank' className='bg-[#222222] rounded-[50px] p-[20px]'><FontAwesomeIcon icon={faUpwork} className='size-[26px] text-[#D3E97A]' /></Link>
             <Link href='https://github.com/shariq001' target='_blank' className='bg-[#222222] rounded-[50px] p-[20px]'><FontAwesomeIcon icon={faGithub} className='size-[26px] text-[#D3E97A]' /></Link>
           </div>
@@ -77,7 +77,7 @@ const About = () => {
         <div className='flex flex-col gap-[20px]'>
           <h1 className='xl:text-[76px] sm:text-[57px] bebas'>LET&apos;S CONNECT</h1>
           <p>Say hello at <Link href='mailto:shariqfazal123@gmail.com' target='_blank' className='border-[#D3E97A] text-white border-b-[2px]'>shariqfazal123@gmail.com</Link></p>
-          <p>For more info, here&apos;s my <Link href='' className='border-[#D3E97A] border-b-[2px] text-white'>resume</Link></p>
+          <p>For more info, here&apos;s my <Link href="Muhammad Shariq's Resume.pdf" download target='_blank' className='border-[#D3E97A] border-b-[2px] text-white'>resume</Link></p>
           <div className='flex justify-start gap-[24px] items-center text-[#D3E97A]'>
             <Link href='https://www.quora.com/profile/Muhammad-Shariq-163' target='_blank'><FontAwesomeIcon icon={faQuora} className='size-[32px]' /></Link>
             <Link href='https://github.com/shariq001' target='_blank'><FontAwesomeIcon icon={faGithub} className='size-[32px]' /></Link>

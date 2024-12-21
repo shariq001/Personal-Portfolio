@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faQuora, faUpwork, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Header from '@/components/Header';
+import Image from 'next/image';
 
 
 
@@ -28,7 +29,9 @@ const Home = () => {
         </div>
 
         {/* Right */}
-        <div className='xl:w-[600px] xl:h-[700px] bg-[#c7c7c7] rounded-[10px] sm:w-[343px]  sm:h-[400px]'></div>
+        <div className='xl:w-[600px] xl:h-[700px] bg-[#1a1a1a] rounded-[10px] sm:w-[343px]  sm:h-[400px] xl:px-[100px] xl:py-[80px]'>
+          
+        </div>
       </div>
 
       {/* Section 2 */}
@@ -40,8 +43,8 @@ const Home = () => {
         <div className='flex xl:flex-row justify-between w-full items-center my-[50px] sm:flex-col sm:gap-[30px]'>
 
           {/* Left */}
-          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px]'>
-
+          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px] xl:p-[50px] sm:py-[80px]'>
+            <Image src='/images/project-1.png' width={600} height={600} alt='Project 1' className='xl:w-[550px] xl:h-[500px] rounded-[10px]'/>
           </div>
 
           {/* Right */}
@@ -70,8 +73,8 @@ const Home = () => {
         <div className='flex xl:flex-row justify-between w-full items-center my-[50px] sm:flex-col sm:gap-[30px]'>
 
           {/* Left */}
-          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px]'>
-
+          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px] xl:p-[50px] sm:py-[90px]'>
+            <Image src='/images/project-2.png' width={600} height={600} alt='Project 1' className='xl:w-[550px] xl:h-[500px] rounded-[10px]'/>
           </div>
 
           {/* Right */}
@@ -97,11 +100,11 @@ const Home = () => {
         </div>
 
         {/* 3 */}
-        <div className='flex xl:flex-row justify-between w-full items-center my-[50px] sm:flex-col sm:gap-[30px]'>
+        <div className='flex xl:flex-row justify-between w-full items-center my-[50px] sm:flex-col sm:gap-[30px] '>
 
           {/* Left */}
-          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px]'>
-
+          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px] xl:p-[50px] sm:py-[60px]'>
+            <Image src='/images/project-3.png' width={600} height={600} alt='Project 1' className='xl:w-[550px] xl:h-[500px] rounded-[10px]'/>
           </div>
 
           {/* Right */}
@@ -145,7 +148,7 @@ const Home = () => {
         <div className='flex flex-col gap-[20px]'>
           <h1 className='xl:text-[76px] bebas sm:text-[43px]'>LET&apos;S CONNECT</h1>
           <p>Say hello at <Link href='mailto:shariqfazal123@gmail.com' target='_blank' className='border-[#D3E97A] text-white border-b-[2px]'>shariqfazal123@gmail.com</Link></p>
-          <p>For more info, here&apos;s my <Link href='' className='border-[#D3E97A] border-b-[2px] text-white'>resume</Link></p>
+          <p>For more info, here&apos;s my <Link href="Muhammad Shariq's Resume.pdf" download target='_blank' className='border-[#D3E97A] border-b-[2px] text-white'>resume</Link></p>
           <div className='flex justify-start gap-[24px] items-center text-[#D3E97A]'>
             <Link href='https://www.quora.com/profile/Muhammad-Shariq-163' target='_blank'><FontAwesomeIcon icon={faQuora} className='size-[32px]' /></Link>
             <Link href='https://github.com/shariq001' target='_blank'><FontAwesomeIcon icon={faGithub} className='size-[32px]' /></Link>
