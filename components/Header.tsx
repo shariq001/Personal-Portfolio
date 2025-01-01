@@ -18,7 +18,7 @@ const Header = () => {
       <nav className="xl:flex justify-center items-center gap-[32px] text-[16px] inter sm:hidden">
         <Link href="#work">Work</Link>
         <Link href="#about-sec">About</Link>
-        <Link href="#contact">Contact</Link>
+        <Link href="/Contact">Contact</Link>
       </nav>
 
       {/* Mobile Hamburger Button */}
@@ -46,7 +46,7 @@ const Header = () => {
           <Link href="#about-sec" onClick={toggleMenu}>
             About
           </Link>
-          <Link href="#contact" onClick={toggleMenu}>
+          <Link href="/Contact" onClick={toggleMenu}>
             Contact
           </Link>
         </nav>

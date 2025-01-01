@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import React, { useState } from "react";
 
-const Header = () => {
+const ContactHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -16,11 +16,9 @@ const Header = () => {
       
       {/* Desktop Navigation */}
       <nav className="xl:flex justify-center items-center gap-[32px] text-[16px] inter sm:hidden">
-        <Link href="/">Home</Link>
-        <Link href="#capabilities">My Capabilites</Link>
-        <Link href="#education">Education</Link>
+        <Link href="/">Work</Link>
+        <Link href="/About">About</Link>
         <Link href="/Contact">Contact</Link>
-        
       </nav>
 
       {/* Mobile Hamburger Button */}
@@ -33,7 +31,7 @@ const Header = () => {
       {/* Mobile Sidebar (Same Navbar) */}
       {isMenuOpen && (
         <nav
-          className="absolute top-0 right-0 h-[250px] bg-white  w-[110px] flex flex-col items-start gap-[16px] p-[20px] text-black inter xl:hidden"
+          className="absolute top-0 right-0 h-[200px] bg-white  w-[100px] flex flex-col items-start gap-[16px] p-[20px] text-black inter xl:hidden"
         >
           <button
             type="button"
@@ -45,11 +43,8 @@ const Header = () => {
           <Link href="/" onClick={toggleMenu}>
             Home
           </Link>
-          <Link href="#capabilities" onClick={toggleMenu}>
-            Capabilies
-          </Link>
-          <Link href="#education" onClick={toggleMenu}>
-            Education
+          <Link href="/About" onClick={toggleMenu}>
+            About
           </Link>
           <Link href="/Contact" onClick={toggleMenu}>
             Contact
@@ -60,4 +55,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default ContactHeader;
