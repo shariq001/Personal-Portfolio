@@ -29,8 +29,8 @@ const Home = () => {
         </div>
 
         {/* Right */}
-        <div className='xl:w-[600px] xl:h-[700px] bg-[#1a1a1a] rounded-[10px] sm:w-[343px]  sm:h-[400px] xl:px-[100px] xl:py-[80px]'>
-          
+        <div className='xl:w-[600px] xl:h-[700px] bg-[#1a1a1a] rounded-[10px] sm:w-[343px]  sm:h-[400px] xl:px-[100px] xl:py-[80px] flex justify-center items-center'>
+          <Image src='/images/my-pic.jpeg' width={600} height={800} alt='My Pic' />
         </div>
       </div>
 
@@ -43,8 +43,8 @@ const Home = () => {
         <div className='flex xl:flex-row justify-between w-full items-center my-[50px] sm:flex-col sm:gap-[30px]'>
 
           {/* Left */}
-          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px] xl:p-[50px] sm:py-[80px]'>
-            <Image src='/images/project-1.png' width={600} height={600} alt='Project 1' className='xl:w-[550px] xl:h-[500px] rounded-[10px]'/>
+          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px] xl:p-[0px] flex justify-center items-center sm:py-[80px]'>
+            <Image src='/images/project-1.png' width={600} height={600} alt='Project 1' className='xl:w-[600px] xl:h-[500px] rounded-[10px]'/>
           </div>
 
           {/* Right */}
@@ -73,8 +73,8 @@ const Home = () => {
         <div className='flex xl:flex-row justify-between w-full items-center my-[50px] sm:flex-col sm:gap-[30px]'>
 
           {/* Left */}
-          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px] xl:p-[50px] sm:py-[90px]'>
-            <Image src='/images/project-2.png' width={600} height={600} alt='Project 1' className='xl:w-[550px] xl:h-[500px] rounded-[10px]'/>
+          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px] xl:p-[0px] flex justify-center items-center sm:py-[90px]'>
+            <Image src='/images/project-2.png' width={600} height={600} alt='Project 2' className='xl:w-[600px] xl:h-[500px] rounded-[10px]'/>
           </div>
 
           {/* Right */}
@@ -93,7 +93,7 @@ const Home = () => {
               <p className='text-[#c7c7c7] '>Web Designer</p>
             </div>
             <div className='flex justify-start items-center gap-[24px] text-[#D3E97A] xl:w-[576px] sm:w-[343px]'>
-              <Link href='https://3-assignment-eta.vercel.app' target='_blank' className='font-bold py-[5px] border-[#D3E97A] border-b-[2px] xl:text-[16px] sm:text-[14px]'>LIVE DEMO <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='size-[15px] inline-flex items-start ml-[8px] '/></Link>
+              <Link href='https://3-assignment-nine.vercel.app' target='_blank' className='font-bold py-[5px] border-[#D3E97A] border-b-[2px] xl:text-[16px] sm:text-[14px]'>LIVE DEMO <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='size-[15px] inline-flex items-start ml-[8px] '/></Link>
               <Link href='https://github.com/shariq001/q2-assignments.git' target='_blank' className='font-bold py-[5px] border-[#D3E97A] border-b-[2px] xl:text-[16px] sm:text-[14px]'>SEE ON GITHUB <FontAwesomeIcon icon={faGithub} className='size-[15px] inline-flex items-start ml-[8px] '/></Link>
             </div>
           </div>
@@ -103,8 +103,8 @@ const Home = () => {
         <div className='flex xl:flex-row justify-between w-full items-center my-[50px] sm:flex-col sm:gap-[30px] '>
 
           {/* Left */}
-          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px] xl:p-[50px] sm:py-[60px]'>
-            <Image src='/images/project-3.png' width={600} height={600} alt='Project 1' className='xl:w-[550px] xl:h-[500px] rounded-[10px]'/>
+          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px] xl:p-[0px] sm:py-[60px] flex justify-center items-center'>
+            <Image src='/images/project-3.png' width={600} height={600} alt='Project 3' className='xl:w-[600px] xl:h-[500px] rounded-[10px]'/>
           </div>
 
           {/* Right */}
@@ -124,6 +124,96 @@ const Home = () => {
             </div>
             <div className='flex justify-start items-center gap-[24px] text-[#D3E97A]  xl:w-[576px] sm:w-[343px]'>
               <Link href='https://9-assignment.vercel.app' target='_blank' className='font-bold py-[5px] border-[#D3E97A] border-b-[2px] xl:text-[16px] sm:text-[14px]'>LIVE DEMO <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='size-[15px] inline-flex items-start ml-[8px] '/></Link>
+              <Link href='https://github.com/shariq001/q2-assignments.git' target='_blank' className='font-bold py-[5px] border-[#D3E97A] border-b-[2px] xl:text-[16px] sm:text-[14px]'>SEE ON GITHUB<FontAwesomeIcon icon={faGithub} className='size-[15px] inline-flex items-start ml-[8px] '/></Link>
+            </div>
+          </div>
+        </div>
+
+        {/* 4 */}
+        <div className='flex xl:flex-row justify-between w-full items-center my-[50px] sm:flex-col sm:gap-[30px] '>
+
+          {/* Left */}
+          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px] xl:p-[0px] flex justify-center items-center sm:py-[60px]'>
+            <Image src='/images/project-4.png' width={500} height={600} alt='Project 4' className='xl:w-[600px] xl:h-[500px] rounded-[10px]'/>
+          </div>
+
+          {/* Right */}
+          <div className='xl:p-[50px] xl:max-w-[600px] flex flex-col gap-[20px] manrope sm:px-[10px] sm:min-w-[343px] sm:max-w-[500px]'>
+            <h1 className='text-white xl:text-[32px] sm:text-[24px] leading-[140%] font-medium'>Whitepace: Elegance in Simplicity, Designed for All</h1>
+            <p className=' xl:text-[18px] text-[#c7c7c7] leading-[150%] sm:text-[16px]'>Whitepace is an exceptional fully responsive website project crafted to provide a flawless browsing experience on any device. With its sleek design and user-friendly layout, it emphasizes clarity and usability, allowing your content to shine. This project encapsulates the true spirit of minimalism, masterfully merging visual appeal with practical functionality to offer users an engaging and accessible interface that enhances every interaction.</p>
+            <div className='flex justify-between items-center border-[#c7c7c7] border-b-[1px] xl:w-[576px] sm:min-w-[343px]'>
+              <h3 className='font-semibold  text-white py-[10px]'>PROJECT INFO</h3>
+            </div>
+            <div className='flex justify-between items-center border-[#c7c7c7] border-b-[1px]  xl:w-[576px] sm:min-w-[343px]'>
+              <h3 className='font-semibold  text-white py-[10px]'>Year</h3>
+              <p className='text-[#c7c7c7] '>2024</p>
+            </div>
+            <div className='flex justify-between items-center border-[#c7c7c7] border-b-[1px]  xl:w-[576px] sm:min-w-[343px]'>
+              <h3 className='font-semibold  text-white py-[10px]'>Role</h3>
+              <p className='text-[#c7c7c7] '>Front-end Developement</p>
+            </div>
+            <div className='flex justify-start items-center gap-[24px] text-[#D3E97A]  xl:w-[576px] sm:w-[343px]'>
+              <Link href='https://6-assignment-eight.vercel.app' target='_blank' className='font-bold py-[5px] border-[#D3E97A] border-b-[2px] xl:text-[16px] sm:text-[14px]'>LIVE DEMO <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='size-[15px] inline-flex items-start ml-[8px] '/></Link>
+              <Link href='https://github.com/shariq001/q2-assignments.git' target='_blank' className='font-bold py-[5px] border-[#D3E97A] border-b-[2px] xl:text-[16px] sm:text-[14px]'>SEE ON GITHUB<FontAwesomeIcon icon={faGithub} className='size-[15px] inline-flex items-start ml-[8px] '/></Link>
+            </div>
+          </div>
+        </div>
+
+        {/* 5 */}
+        <div className='flex xl:flex-row justify-between w-full items-center my-[50px] sm:flex-col sm:gap-[30px] '>
+
+          {/* Left */}
+          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px] xl:p-[0px] flex justify-center items-center sm:py-[60px]'>
+            <Image src='/images/project-5.png' width={500} height={600} alt='Project 5' className='xl:w-[600px] xl:h-[500px] rounded-[10px]'/>
+          </div>
+
+          {/* Right */}
+          <div className='xl:p-[50px] xl:max-w-[600px] flex flex-col gap-[20px] manrope sm:px-[10px] sm:min-w-[343px] sm:max-w-[500px]'>
+            <h1 className='text-white xl:text-[32px] sm:text-[24px] leading-[140%] font-medium'>Smart Counting Made Simple</h1>
+            <p className=' xl:text-[18px] text-[#c7c7c7] leading-[150%] sm:text-[16px]'>Discover the power of our Counter project, featuring an intuitive increment and decrement system that perfectly integrates with a shopping cart. As you effortlessly adjust the counter, watch as updates are dynamically reflected in the cart, providing an engaging and clear user experience. Crafted with a focus on simplicity and functionality, this project emphasizes efficient interactivity and delivers clean visual feedback, ensuring that managing your selections is not only easy but enjoyable. Experience a seamless interface that elevates your shopping experience today!</p>
+            <div className='flex justify-between items-center border-[#c7c7c7] border-b-[1px] xl:w-[576px] sm:min-w-[343px]'>
+              <h3 className='font-semibold  text-white py-[10px]'>PROJECT INFO</h3>
+            </div>
+            <div className='flex justify-between items-center border-[#c7c7c7] border-b-[1px]  xl:w-[576px] sm:min-w-[343px]'>
+              <h3 className='font-semibold  text-white py-[10px]'>Year</h3>
+              <p className='text-[#c7c7c7] '>2024</p>
+            </div>
+            <div className='flex justify-between items-center border-[#c7c7c7] border-b-[1px]  xl:w-[576px] sm:min-w-[343px]'>
+              <h3 className='font-semibold  text-white py-[10px]'>Role</h3>
+              <p className='text-[#c7c7c7] '>Front-end Developement</p>
+            </div>
+            <div className='flex justify-start items-center gap-[24px] text-[#D3E97A]  xl:w-[576px] sm:w-[343px]'>
+              <Link href='https://8-assignment-omega.vercel.app' target='_blank' className='font-bold py-[5px] border-[#D3E97A] border-b-[2px] xl:text-[16px] sm:text-[14px]'>LIVE DEMO <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='size-[15px] inline-flex items-start ml-[8px] '/></Link>
+              <Link href='https://github.com/shariq001/q2-assignments.git' target='_blank' className='font-bold py-[5px] border-[#D3E97A] border-b-[2px] xl:text-[16px] sm:text-[14px]'>SEE ON GITHUB<FontAwesomeIcon icon={faGithub} className='size-[15px] inline-flex items-start ml-[8px] '/></Link>
+            </div>
+          </div>
+        </div>
+
+        {/* 6 */}
+        <div className='flex xl:flex-row justify-between w-full items-center my-[50px] sm:flex-col sm:gap-[30px] '>
+
+          {/* Left */}
+          <div className='xl:w-[600px] bg-[#1a1a1a] xl:h-[600px] rounded-[10px] sm:w-[343px] sm:h-[400px] xl:p-[0px] flex justify-center items-center sm:py-[60px]'>
+            <Image src='/images/project-6.png' width={400} height={600} alt='Project 5' className='xl:w-[600px] xl:h-[500px] rounded-[10px]'/>
+          </div>
+
+          {/* Right */}
+          <div className='xl:p-[50px] xl:max-w-[600px] flex flex-col gap-[20px] manrope sm:px-[10px] sm:min-w-[343px] sm:max-w-[500px]'>
+            <h1 className='text-white xl:text-[32px] sm:text-[24px] leading-[140%] font-medium'>Showcasing Simplicity, Built for Mobile and Desktop Screens</h1>
+            <p className=' xl:text-[18px] text-[#c7c7c7] leading-[150%] sm:text-[16px]'>This portfolio website stands out for its simplicity and clean design, featuring a dedicated About page that shares personal insights and builds a connection with visitors. Fully responsive for mobile devices, it guarantees a flawless experience on any screen size. With its minimalist layout, this project not only highlights content with striking clarity but also combines elegance with practical functionality, making it an exceptional choice for anyone seeking an impactful online presence.</p>
+            <div className='flex justify-between items-center border-[#c7c7c7] border-b-[1px] xl:w-[576px] sm:min-w-[343px]'>
+              <h3 className='font-semibold  text-white py-[10px]'>PROJECT INFO</h3>
+            </div>
+            <div className='flex justify-between items-center border-[#c7c7c7] border-b-[1px]  xl:w-[576px] sm:min-w-[343px]'>
+              <h3 className='font-semibold  text-white py-[10px]'>Year</h3>
+              <p className='text-[#c7c7c7] '>2024</p>
+            </div>
+            <div className='flex justify-between items-center border-[#c7c7c7] border-b-[1px]  xl:w-[576px] sm:min-w-[343px]'>
+              <h3 className='font-semibold  text-white py-[10px]'>Role</h3>
+              <p className='text-[#c7c7c7] '>Front-end Developement</p>
+            </div>
+            <div className='flex justify-start items-center gap-[24px] text-[#D3E97A]  xl:w-[576px] sm:w-[343px]'>
+              <Link href='https://4-assignment-six.vercel.app' target='_blank' className='font-bold py-[5px] border-[#D3E97A] border-b-[2px] xl:text-[16px] sm:text-[14px]'>LIVE DEMO <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='size-[15px] inline-flex items-start ml-[8px] '/></Link>
               <Link href='https://github.com/shariq001/q2-assignments.git' target='_blank' className='font-bold py-[5px] border-[#D3E97A] border-b-[2px] xl:text-[16px] sm:text-[14px]'>SEE ON GITHUB<FontAwesomeIcon icon={faGithub} className='size-[15px] inline-flex items-start ml-[8px] '/></Link>
             </div>
           </div>
