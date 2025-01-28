@@ -3,7 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faUpwork  } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faUpwork  } from '@fortawesome/free-brands-svg-icons';
 
 const About = () => {
   return (
@@ -18,9 +18,9 @@ const About = () => {
           <p>I&apos;m Muhammad Shariq, a passionate learner with a keen interest in technology and problem-solving. Aspiring to become a Generative AI Engineer, I focus on mastering modern tools and building innovative solutions. I strive to grow both personally and professionally by taking on challenges that push my limits, aiming to make a meaningful impact through my work.</p>
 
           <div className='flex justify-start items-center xl:gap-[24px] sm:gap-[14px]'>
-            <Link href="Muhammad Shariq's Resume.pdf" download target='_blank' className='bg-[#D3E97A] xl:px-[32px] sm:px-[20px] py-[16px] rounded-[50px] text-black font-bold my-[20px] xl:text-[16px] sm:text-[14px]'>DOWNLAOD RESUME <FontAwesomeIcon icon={faCircle} className='size-[10px] xl:inline-flex sm:hidden ml-[15px]' /></Link>
-            <Link href='https://www.upwork.com/freelancers/~01d1e47120d0918186' target='_blank' className='bg-[#222222] rounded-[50px] p-[20px]'><FontAwesomeIcon icon={faUpwork} className='size-[26px] text-[#D3E97A]' /></Link>
-            <Link href='https://github.com/shariq001' target='_blank' className='bg-[#222222] rounded-[50px] p-[20px]'><FontAwesomeIcon icon={faGithub} className='size-[26px] text-[#D3E97A]' /></Link>
+            <Link href="Muhammad Shariq's Resume.pdf" download target='_blank' className='bg-[#D3E97A] xl:px-[32px] sm:px-[20px] py-[16px] rounded-[50px] text-black font-bold my-[20px] xl:text-[16px] sm:text-[14px]'>DOWNLAOD RESUME <FontAwesomeIcon icon={faCircle} className='size-[10px] xl:inline-flex items-center sm:hidden ml-[15px]' /></Link>
+            <Link href='https://www.upwork.com/freelancers/~01d1e47120d0918186?mp_source=share' target='_blank' className='bg-[#222222] rounded-full w-[60px] h-[60px] flex justify-center items-center'><FontAwesomeIcon icon={faUpwork} className='size-[26px] text-[#D3E97A]' /></Link>
+            <Link href='https://www.linkedin.com/in/muhammad---shariq' target='_blank' className='bg-[#222222] rounded-[50px] w-[60px] h-[60px] flex justify-center items-center'><FontAwesomeIcon icon={faLinkedinIn} className='size-[26px] text-[#D3E97A]' /></Link>
           </div>
         </div>
       </div>
@@ -30,13 +30,19 @@ const About = () => {
         <h1 className='bebas xl:text-[101px] sm:text-[57px]'>MY CAPABILITIES</h1>
         <div className='xl:max-w-[600px] sm:min-w-[343px] sm:max-w-[400px]'>
           <p>I am a dedicated learner with a strong interest in programming and web development. I specialize in creating responsive, user-friendly solutions and have experience with modern tools and frameworks. Continuously improving my skills, I aim to grow as a software engineer and contribute to impactful projects.</p>
-          <div className='flex w-full flex-wrap xl:gap-[5px] xl:justify-between my-[20px] sm:justify-start sm:gap-[10px]'>
+          <div className='flex w-full flex-wrap xl:gap-[15px] xl:justify-start  my-[20px] sm:justify-start sm:gap-[10px]'>
             <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>HTML</h2>
             <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>CSS</h2>
             <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>Typescript</h2>
+            <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>Javascript</h2>
             <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>NextJs</h2>
+            <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>ShadCN</h2>
+            <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>Responsive Web Desig</h2>
+            <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>Tailwind CSS</h2>
+            <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>Vercel</h2>
             <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>GitHub</h2>
             <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>Problem-solving</h2>
+            
           </div>
         </div>
       </div>

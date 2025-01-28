@@ -15,7 +15,7 @@ const Contact = () => {
             {/* Left */}
             <div className='flex flex-col gap-[20px]'>
             <h1 className='xl:text-[76px] bebas sm:text-[43px]'>LET&apos;S CONNECT</h1>
-            <p>Say hello at <Link href='mailto:shariqfazal123@gmail.com' target='_blank' className='border-[#D3E97A] text-white border-b-[2px]'>shariqfazal123@gmail.com</Link></p>
+            <p>Say hello at <Link href='mailto:muhammadshariqfazal@gmail.com' target='_blank' className='border-[#D3E97A] text-white border-b-[2px]'>muhammadshariqfazal@gmail.com</Link></p>
             <p>For more info, here&apos;s my <Link href="Muhammad Shariq's Resume.pdf" download target='_blank' className='border-[#D3E97A] border-b-[2px] text-white'>resume</Link></p>
             <div className='flex justify-start gap-[24px] items-center text-[#D3E97A]'>
                 <Link href='https://www.quora.com/profile/Muhammad-Shariq-163' target='_blank'><FontAwesomeIcon icon={faQuora} className='size-[32px]' /></Link>
