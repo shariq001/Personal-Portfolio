@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faQuora, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faFacebookF, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import ContactHeader from '@/components/ContactHeader';
 
 
@@ -18,7 +18,7 @@ const Contact = () => {
             <p>Say hello at <Link href='mailto:muhammadshariqfazal@gmail.com' target='_blank' className='border-[#D3E97A] text-white border-b-[2px]'>muhammadshariqfazal@gmail.com</Link></p>
             <p>For more info, here&apos;s my <Link href="Muhammad Shariq's Resume.pdf" download target='_blank' className='border-[#D3E97A] border-b-[2px] text-white'>resume</Link></p>
             <div className='flex justify-start gap-[24px] items-center text-[#D3E97A]'>
-                <Link href='https://www.quora.com/profile/Muhammad-Shariq-163' target='_blank'><FontAwesomeIcon icon={faQuora} className='size-[32px]' /></Link>
+                <Link href='https://www.linkedin.com/in/muhammad---shariq' target='_blank'><FontAwesomeIcon icon={faLinkedinIn} className='size-[32px]' /></Link>
                 <Link href='https://github.com/shariq001' target='_blank'><FontAwesomeIcon icon={faGithub} className='size-[32px]' /></Link>
                 <Link href='https://www.facebook.com/profile.php?id=61561612011431&sk=grid&_rdc=1&_rdr' target='_blank'><FontAwesomeIcon icon={faFacebookF} className='size-[32px]' /></Link>
                 <Link href='https://www.instagram.com/mu_shariq1' target='_blank'><FontAwesomeIcon icon={faInstagram} className='size-[32px]' /></Link>
@@ -30,13 +30,13 @@ const Contact = () => {
             <div className='xl:max-w-[600px] sm:min-w-[343px] sm:max-w-[500px]'>
             <form action="">
                 <label htmlFor="Name">Name</label>
-                <input type="text" name="Name" placeholder='Enter you Name' className='w-full outline-none border-none bg-[#1a1a1a] p-[15px] rounded-[5px] mt-[5px] mb-[20px]'/>
+                <input type="text" name="Name" placeholder='Enter your Name' className='w-full outline-none border-none bg-[#1a1a1a] p-[15px] rounded-[5px] mt-[5px] mb-[20px]'/>
 
                 <label htmlFor="Email" className='mt-[20px]'>Email</label>
-                <input type="email" name="Email" placeholder='Enter you Email' className='w-full outline-none border-none bg-[#1a1a1a] p-[15px] rounded-[5px] mt-[5px] mb-[20px]'/>
+                <input type="email" name="Email" placeholder='Enter your Email' className='w-full outline-none border-none bg-[#1a1a1a] p-[15px] rounded-[5px] mt-[5px] mb-[20px]'/>
 
                 <label htmlFor="Subject" className='mt-[20px]'>Subject</label>
-                <input type="text" name="Subject" placeholder='Enter you Subject' className='w-full outline-none border-none bg-[#1a1a1a] p-[15px] rounded-[5px] mt-[5px] mb-[20px]'/>
+                <input type="text" name="Subject" placeholder='Enter your Subject' className='w-full outline-none border-none bg-[#1a1a1a] p-[15px] rounded-[5px] mt-[5px] mb-[20px]'/>
 
                 <label htmlFor="Message" className='mt-[20px]'>Message</label>
                 <textarea placeholder='Enter your Message' className='w-full outline-none border-none bg-[#1a1a1a] p-[15px] rounded-[5px] mt-[5px] min-h-[130px]'/>

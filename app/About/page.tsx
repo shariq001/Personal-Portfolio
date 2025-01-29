@@ -37,7 +37,7 @@ const About = () => {
             <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>Javascript</h2>
             <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>NextJs</h2>
             <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>ShadCN</h2>
-            <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>Responsive Web Desig</h2>
+            <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>Responsive Web Design</h2>
             <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>Tailwind CSS</h2>
             <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>Vercel</h2>
             <h2 className='border-white border-[2px] rounded-[50px] px-[25px] py-[16px]'>GitHub</h2>
