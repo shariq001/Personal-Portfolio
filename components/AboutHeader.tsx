@@ -11,11 +11,11 @@ const Header = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <div className="xl:min-w-[1440px] xl:px-[80px] xl:py-[16px] flex justify-between items-center text-[#c7c7c7] sm:min-w-[375px] sm:px-[15px] relative">
+    <div className="xl:min-w-[1440px] xl:px-[80px] lg:px-[30px] xl:py-[16px] flex justify-between items-center text-[#c7c7c7] sm:min-w-[320px] sm:px-[15px] relative">
       <h1 className="bebas xl:text-[32px] sm:text-[28px]">MUHAMMAD SHARIQ</h1>
       
       {/* Desktop Navigation */}
-      <nav className="xl:flex justify-center items-center gap-[32px] text-[16px] inter sm:hidden">
+      <nav className="lg:flex justify-center items-center gap-[32px] lg:text-[16px] xl:text-[18px] inter sm:hidden">
         <Link href="/">Home</Link>
         <Link href="#capabilities">My Capabilites</Link>
         <Link href="#education">Education</Link>
@@ -24,7 +24,7 @@ const Header = () => {
       </nav>
 
       {/* Mobile Hamburger Button */}
-      <div className="xl:hidden sm:block">
+      <div className="lg:hidden sm:block">
         <button type="button" onClick={toggleMenu}>
           <FontAwesomeIcon icon={faBars} className="text-[15px]" />
         </button>

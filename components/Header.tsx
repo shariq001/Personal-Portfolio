@@ -11,7 +11,7 @@ const Header = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <div className="xl:min-w-[1440px] xl:px-[80px] xl:py-[16px] flex justify-between items-center text-[#c7c7c7] sm:min-w-[320px] sm:px-[15px] lg:px-[50px] relative">
+    <div className="xl:min-w-[1440px] xl:px-[80px] xl:py-[16px] flex justify-between items-center text-[#c7c7c7] sm:min-w-[320px] sm:px-[15px] lg:px-[30px] relative">
       <h1 className="bebas xl:text-[32px] sm:text-[28px]">MUHAMMAD SHARIQ</h1>
       
       {/* Desktop Navigation */}
