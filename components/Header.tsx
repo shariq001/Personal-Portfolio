@@ -15,14 +15,14 @@ const Header = () => {
       <h1 className="bebas xl:text-[32px] sm:text-[28px]">MUHAMMAD SHARIQ</h1>
       
       {/* Desktop Navigation */}
-      <nav className="xl:flex justify-center items-center gap-[32px] text-[16px] inter sm:hidden">
+      <nav className="lg:flex justify-center items-center gap-[32px] text-[16px] inter sm:hidden">
         <Link href="#work">Work</Link>
         <Link href="#about-sec">About</Link>
         <Link href="/Contact">Contact</Link>
       </nav>
 
       {/* Mobile Hamburger Button */}
-      <div className="xl:hidden sm:block">
+      <div className="lg:hidden sm:block">
         <button type="button" onClick={toggleMenu}>
           <FontAwesomeIcon icon={faBars} className="text-[15px]" />
         </button>

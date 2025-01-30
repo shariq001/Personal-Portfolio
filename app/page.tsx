@@ -30,7 +30,7 @@ const Home = () => {
 
         {/* Right */}
         <div className='xl:w-[500px] xl:h-[600px] bg-[#1a1a1a] rounded-[10px] sm:w-full  sm:h-[400px] xl:px-[100px] xl:py-[80px] flex justify-center items-center'>
-          <Image src='/images/my-pic.jpeg' width={600} height={800} alt='My Pic' className='xl:w-[400px] xl:h-[500px] sm:min-w-[290px] sm:max-w-[300px] sm:h-[300px]'/>
+          <Image src='/images/my-pic.jpeg' width={600} height={800} alt='My Pic' className='xl:w-[400px] xl:h-[400px] rounded-[15px] sm:min-w-[290px] sm:max-w-[300px] sm:h-[300px]'/>
         </div>
       </div>
 
